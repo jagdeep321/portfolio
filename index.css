@@ -86,7 +86,7 @@ a:hover {
     width: 50vw;
     /* background-color: aqua; */
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     flex-direction: column;
     /* padding-left: 60px; */
@@ -105,6 +105,8 @@ a:hover {
     color: #4c96ED;
     margin-top: 10px;
     margin-bottom: 30px;
+    /* background-color: #155dfd; */
+    width: 84%;
 
 }
 
@@ -183,6 +185,8 @@ a:hover {
     justify-content: center;
     display: flex;
     margin-bottom: 40px;
+    /* padding: 30px 1px; */
+
 
 
 }
@@ -238,19 +242,19 @@ a:hover {
 #skills {
     min-height: 100vh;
     width: 100%;
-    /* background-color: #1b2737; */
-    background-color: aqua;
+    background-color: #1b2737;
+    /* background-color: aqua; */
 }
 
 .skillme {
     color: white;
 
-    /* height: 20vh; */
+    height: 20vh;
     /* background-color: #4c96ED; */
     align-items: end;
     justify-content: center;
     display: flex;
-    padding: 40px 1px;
+    /* padding: 40px 1px; */
 }
 
 .tools {
@@ -259,6 +263,7 @@ a:hover {
     height: 100%;
     gap: 5%;
     justify-content: center;
+    padding: 40px 1px;
 }
 
 .same1 {
@@ -402,6 +407,7 @@ a:hover {
     justify-content: center;
     color: white;
     margin-bottom: 20px;
+    /* padding: 25px 1px; */
 }
 
 .workbottom {
@@ -410,20 +416,26 @@ a:hover {
     align-items: center;
     justify-content: center;
     gap: 7%;
+    /* background-color: #155dfd; */
+    /* padding: 20px 1px; */
 }
 
 .contactcart1 {
     background-color: #1e2a3a;
     /* height: 450px; */
-    width: 40%;
+    width: 30%;
     border-radius: 20px;
+    padding: 10px 20px;
+    
+    
 }
 
 .contactcart2 {
     background-color: #1e2a3a;
     /* height: 450px; */
-    width: 40%;
+    width: 30%;
     border-radius: 20px;
+    padding: 20px;
 }
 
 .contactcart1:hover {
@@ -443,34 +455,35 @@ a:hover {
 .contactchild {
     width: 100%;
     /* background-color: aqua; */
-    margin-left: 20px;
+    margin-left: 15px;
     /* height: 400px; */
     margin-top: 15px;
+
 }
 
 .connectbio1 {
     color: white;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
-
 .connectbio2 {
     color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
+    font-size: 21px;
+    margin-bottom: 10px;
 }
 
 .maindetail {
     /* background-color: #155dfd; */
     display: flex;
     flex-direction: column;
-    gap: 18px;
+    gap: 10px;
 }
 
 .personaldetail {
     /* background-color: #155dfd; */
     display: flex;
     gap: 10px;
+
 
 
 }
@@ -494,7 +507,7 @@ a:hover {
 .gmail {
     color: white;
     font-size: 18px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .icons {
@@ -505,7 +518,7 @@ a:hover {
 
 .insta {
     color: white;
-    font-size: 33px;
+    font-size: 26px;
 }
 
 
@@ -517,7 +530,7 @@ a:hover {
     width: 90%;
     height: 40px;
     border-radius: 13px;
-    margin-bottom: 30px;
+    margin-bottom: 26px;
     /* padding-left: 5px; */
     border: none;
 }
@@ -527,9 +540,10 @@ a:hover {
     color: white;
     padding: 5px;
     border-radius: 13px;
-    margin-bottom: 27px;
+    margin-bottom: 20px;
     border: none;
-    width: 80%;
+    width: 86%;
+    height: 40px;
 
 }
 
@@ -543,6 +557,7 @@ a:hover {
     color: white;
     font-size: 20px;
     border: none;
+   
 }
 
 .collab:hover {
@@ -603,47 +618,82 @@ a:hover {
            width: 100%;
         /* height: 40vh; */
     align-items: center;
+    /* justify-content: center; */
+    }
+
+     .skill{
+        font-size: 27px;
+        /* padding: 10px 0px; */
+        text-align: center;
     }
 
    .mainbuttons{
     align-items: start;
-    /* justify-content: start; */
-    display: flex;
+    justify-content: center;
+    /* display: flex; */
+    /* background-color: #1354e0; */
 
    } 
 
     .namejagdeep {
-        font-size: 40px;
+        font-size: 45px;
 
     }
 
     .bigimage {
-        height: 230px;
-        width: 230px;
+        height: 270px;
+        width: 270px;
         border-radius: 100%;
+
     }
 
     .mainimage {
-        display: flex;
-        justify-content: center;
+        /* display: flex; */
+        /* justify-content: start; */
         align-items: start;
-        position: relative;
-        right: 3%;
+        /* margin-left: 40px; */
+        width: 100%;
+      
     }
 
     .aboutme {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column;
-        right: 24%;
+        /* flex-direction: column; */
+        /* right: 24%; */
+        margin-bottom: 10px;
 
     }
 
     .theory {
         font-size: 24px;
-        width: 98%;
+        width: 95%;
     }
+    .cvbox{
+        /* padding: 16px; */
+        margin-bottom: 10px;
+    }
+
+    .boxskill{
+        font-size: 30px;
+    }
+
+   
+    .prof{
+        /* display: flex; */
+        text-align: center;
+        /* background-color: #155dfd; */
+
+    }
+
+    .same{
+        
+    
+    width: 93%;
+   
+    }
+    
 
     .workbottom{
         flex-direction: column;
@@ -655,16 +705,17 @@ a:hover {
         align-items: center;
         gap: 10px;
     }
-    .skill{
-        font-size: 24px;
-        padding: 10px 0px;
+    .education{
+        font-size: 50px;
     }
+   
     .contactcart1 {
-    width: 95%;
+    width: 80%;
 }
 
 .contactcart2 {
  
-    width: 95%;
+    width: 80%;
+    margin-bottom: 10px;
 }
 }
