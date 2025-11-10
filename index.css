@@ -637,6 +637,7 @@ a:hover {
 
     .namejagdeep {
         font-size: 45px;
+        text-align: center;
 
     }
 
@@ -677,6 +678,10 @@ a:hover {
 
     .boxskill{
         font-size: 30px;
+        text-align: center;
+    }
+    .lets{
+        text-align: center;
     }
 
    
@@ -706,7 +711,7 @@ a:hover {
         gap: 10px;
     }
     .education{
-        font-size: 50px;
+        font-size: 40px;
     }
    
     .contactcart1 {
