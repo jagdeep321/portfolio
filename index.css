@@ -267,10 +267,14 @@ a:hover {
 }
 
 .same1 {
-    height: 400px;
-    width: 300px;
+    /* height: 400px; */
+    /* width: 300px; */
+    width: 25%;
     border-radius: 20px;
     background-color: #2b3549;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* background-color: red; */
 }
 
 .same1:hover {
@@ -280,8 +284,9 @@ a:hover {
 .fronted {
     color: #4c96ED;
     text-align: center;
-    height: 100px;
-    width: 300px;
+ margin-bottom: 20px;
+    width: 100%;
+    /* padding-top: 20px; */
     /* background-color: aquamarine; */
     border-radius: 20px;
     display: flex;
@@ -290,6 +295,7 @@ a:hover {
 }
 
 .frontedtools {
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -531,7 +537,7 @@ a:hover {
     height: 40px;
     border-radius: 13px;
     margin-bottom: 26px;
-    /* padding-left: 5px; */
+    padding-left: 7px;
     border: none;
 }
 
@@ -550,7 +556,7 @@ a:hover {
 .collab {
 
     background-color: #155dfd;
-    width: 80%;
+    width: 85%;
     height: 40px;
     border-radius: 13px;
     margin-left: 8px;
@@ -637,13 +643,13 @@ a:hover {
 
     .namejagdeep {
         font-size: 45px;
-        text-align: center;
+        /* text-align: center; */
 
     }
 
     .bigimage {
-        height: 270px;
-        width: 270px;
+        height: 300px;
+        width: 300px;
         border-radius: 100%;
 
     }
@@ -698,7 +704,12 @@ a:hover {
     width: 93%;
    
     }
+
     
+    .same1{
+        /* background-color: red; */
+        width: 90%;
+    }
 
     .workbottom{
         flex-direction: column;
@@ -710,8 +721,12 @@ a:hover {
         align-items: center;
         gap: 10px;
     }
+    
+
+    
     .education{
         font-size: 40px;
+        margin-top: 20px;
     }
    
     .contactcart1 {
